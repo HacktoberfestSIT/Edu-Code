@@ -38,4 +38,4 @@
 
 All the best and do not forget to Star ⭐ this repository. 😁
 
-##### Repository Maintained by [GDSC SIT]("https://gdsc.community.dev/siliguri-institute-of-technology-darjeeling/")
+##### Repository Maintained by [Debajyoti Sarkar](https://github.com/debajyotisarkarhome), [Rajarshi Roy](https://github.com/roy-rajarshi),[Soumwadeep Guha](https://github.com/soumwadeep), [Sabarna Biswas](https://github.com/Sabarna07), [Srishti Majumder](https://github.com/Srishtihere), [Manjeet Sharma](https://github.com/manjeet-sharma)
