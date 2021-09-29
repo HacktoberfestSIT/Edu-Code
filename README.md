@@ -3,7 +3,7 @@
 
 
 ## 😇About the repository
- This ia a basic educational website made with HTML, CSS and Js. You can make any change in the design or layout of the website which makes it better.
+ This is a basic educational website made with HTML, CSS and Js. You can make any change in the design or layout of the website which makes it better.
 
 ## 📢General Steps to follow while contributing:
 ### Step Zero
@@ -31,7 +31,6 @@
 - Make PR which is thoughtful
 - Do not forget to write your name on the Contributors.md file
 - 🌸 Kind of Contributions you can make
-- The first and the most easy kind of contribution you can make is changing the Documentation.
 - You can change the UI/UX design of the website and make it look even better.
 - You can add more content to the given website by adding more pages or sections to it.
 - Or any kind of change you find valid for the betterment of the website.
