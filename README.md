@@ -1,4 +1,4 @@
-# Edu-Code Website
+# Edu-Code Website. [ Under Webdev Track ]
 <img src="img/offer.png" alt="Sublime's custom image">
 
 
@@ -26,11 +26,11 @@
 - That's it 🎉💥
 
 ### 👀Make a Meaningful PR
-- Do not make a spam PR, if found you will be disqualified from Hacktoberfest
-- Try to understand the problem discussed in the issue
-- Make PR which is thoughtful
-- Do not forget to write your name on the Contributors.md file
-- 🌸 Kind of Contributions you can make
+- Do not make a spam PR, if found you will be disqualified from Hacktoberfest.
+- Try to understand the problem discussed in the issue.
+- Make PR which is thoughtful.
+- Do not forget to write your name on the Contributors.md file.
+- 🌸 Kind of Contributions you can make.
 - You can change the UI/UX design of the website and make it look even better.
 - You can add more content to the given website by adding more pages or sections to it.
 - Or any kind of change you find valid for the betterment of the website.
