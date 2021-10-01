@@ -209,74 +209,76 @@ form input{
 }
 
         /* Footer */
-#footer{
-    padding: 50px 0 30px;
-}
-hr{
-    width: 100%;
-    border: 0;
-    border-top: 1px solid #f67c92;
-}
-.footer-row{
+footer{
+    background-color: #1B0045;
+    color: white;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 0;
+   
 }
-.footer-left-col{
-    flex-basis: 50%;
-    margin-top: 60px;
+/* FOOOTER---> Contact form  */
+.contact-form{
+    margin: 0;
 }
-.footer-right-col{
-    flex-basis: 35%;
+.contact-form > input,textarea{
+    margin: 10px 0;
+    border: none;
 }
-.footer-links{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+textarea{
+    padding: 12px 10px;
 }
-.link-title h4{
-    color: #fab3c4;
-    margin-bottom: 20px;
+.contact-form-send{
+    background-color: #F7FF65;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
 }
-.link-title small{
-    font-size: 13px;
-    color: #777;
-}
-.footer-info{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.footer-logo img{
-    width: 100px;        
-}
-.footer-logo button{
-    padding: 12px 38px;
-    margin-top: 20px;
-    font-size: 10px;
-}
-.copyright-text, .footer-logo{
-    flex-basis: 40%;
-    color: #777;
+.contact-form-send:hover{
+    transition: 0.5s;
+    background-color: #e5f018;
+    box-shadow: 2px 2px 3px -0.7px #fff;
+    cursor: pointer;
+
 }
 
-        /* Social Icons */
-.social-icons{
-    width: 50px;
-    position: fixed;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
-    z-index: 1;
+/* FOOOTER---> Sitemap  */
+li{
+    list-style: none;
+    margin: 30px 0;
 }
-.social-icons img{
-    display: block;
-    width: 20px;
-    margin: 0 auto 20px;
+a{
+    color: inherit;
+}
+.sitemap-navigation-links >li> a:hover{
+    color: #5f5beb;
+    transition: 0.7s;
     cursor: pointer;
 }
+
+
+/* FOOOTER----> Social Icons  */
+.social-media{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.social-media >.site-logo{
+    width: 50%;
+}
+.social-media > .email-phone, .social-media-icons{
+    margin: 20px 0;
+}
+.social-media-icons>i{
+    margin-right: 10px;
+    color: #6B67F5;
+}
+.social-media-icons > i:hover{
+    color: #adabe2;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
 
 /* Media Queries */
 @media only screen and (max-width: 770px){
@@ -325,21 +327,30 @@ hr{
         flex-basis: 100%;
         margin-top: 70px;
     }
-    .contact-left-col, .contact-right-col{
-        flex-basis: 100%;
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .contact-right-col{
-        margin-top: 50px;
+    .sitemap{
+        margin: 20px;
     }
-    .footer-left-col, .footer-right-col{
-        flex-basis: 100%;
+    .sitemap-navigation-links{
+        display: flex;  
+        
     }
-    .link-title{
-        flex-basis: 50%;
-        margin-bottom: 30px;
+    .sitemap-navigation-links>li{
+        margin-right: 20px;
     }
-    .social-icons img{
-        width: 14px;
-        margin: 15px auto;
+    .social-media{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
     }
+    .social-media >.site-logo{
+        width: 20%;
+    }
+    
 }
