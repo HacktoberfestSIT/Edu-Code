@@ -73,6 +73,27 @@ a{
     line-height: 8px;
 }
 
+/* top button start */
+#btn {
+    position: fixed;
+    background-color:rgb(243, 205, 205);
+    text-decoration: none;
+    border: none;
+    border-radius: 25px;
+    color: black;
+    cursor: pointer;
+    display: none;
+    bottom: 16px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+.pop:hover {
+    transform: scale(1.2); 
+}
 /* About Us & Offers */
 #about,#offer{
     padding: 100px 0;
