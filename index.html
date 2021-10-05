@@ -28,7 +28,22 @@
         </div>
     </section>
     
-    
+    <!--top button start -->
+      <button onclick="topBtn()" id="btn"><div class="pop"><i class="fa fa-angle-double-up"></i></div></button>
+      <script>
+      window.onscroll = function(){
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+         document.getElementById("btn").style.display = "block";
+         } else{
+         document.getElementById("btn").style.display = "none";
+         }};
+         function topBtn(){
+          document.body.scrollTop = 0; 
+          document.documentElement.scrollTop = 0; 
+          }
+      </script>
+      <!--top button end -->
+
     <!-- About Us -->
     <section id="about">
         <div class="about-left-col">
