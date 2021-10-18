@@ -12,6 +12,11 @@
 
 let menuBtn = document.getElementById("menuBtn");
 let sideNav = document.getElementById("sideNav");
+let mobileBtn = document.getElementById("mobileBtn")
+
+mobileBtn.addEventListener("click", function () {
+  mobileBtn.classList.toggle("active");
+});
 
 sideNav.style.right = "-250px";
 menuBtn.onclick = () => {
