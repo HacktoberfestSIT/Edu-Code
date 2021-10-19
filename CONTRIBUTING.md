@@ -15,7 +15,7 @@ Welcome to the list of people who contributed to this repo 💥
 6. [Manjeet Sharma](https://github.com/manjeet-sharma)
 
 ## General Contributors below:
-1.
+1. [Rifqi Anshari](https://github.com/riansha)
 2.
 3.
 4.
