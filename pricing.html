@@ -35,7 +35,107 @@
     </section>
 
     <!-- TODO : Gotta build the this page -->
-    
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">courses we are providing</h2>
+<p style="text-align:center">you can go with any of the products available here to continue learning with</p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Android Development using Java</li>
+    <li class="grey">$ 4.1 / 8 weeks</li>
+    <li>live classes</li>
+    <li>full pdf available with lecture notes </li>
+    <li>20+ mock tests and quizzes</li>
+    <li>genuine certification* </li>
+    <li class="grey"><a href="#" class="button">buy now</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#04AA6D">The joy of computing using Python</li>
+    <li class="grey">$ 18.45 / 16 weeks</li>
+    <li>live classes</li>
+    <li>full pdf available with lecture notes</li>
+    <li>35 + mock tests and quizzes</li>
+    <li>genuine certification*</li>
+    <li class="grey"><a href="#" class="button">buy now</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">R language programming </li>
+    <li class="grey">$ 3.9 / 4 weeks</li>
+    <li>live classes</li>
+    <li>full pdf available with lecture notes</li>
+    <li>10+ mock tests and quizzes</li>
+    <li>genuine certification*</li>
+    <li class="grey"><a href="#" class="button">buy now</a></li>
+  </ul>
+</div>
+*you can use this certificate for credit tranfer into your institution/school
 
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="js/smooth-scroll.min.js"></script>
