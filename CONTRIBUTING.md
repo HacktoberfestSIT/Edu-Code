@@ -14,8 +14,9 @@ Welcome to the list of people who contributed to this repo 💥
 5. [Srishti Majumder](https://github.com/Srishtihere)
 6. [Manjeet Sharma](https://github.com/manjeet-sharma)
 
+
 ## General Contributors below:
-1.
+1. [Ujjwal](https://github.com/BellatrixLestrangee)
 2.
 3.
 4.
