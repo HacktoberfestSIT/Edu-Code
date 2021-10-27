@@ -202,6 +202,11 @@ h1{
     font-weight: bold;
     cursor: pointer;
 }
+
+.common-btn:hover {
+    background-color: #f67c92;
+}
+
 p{
     font-size: 15px;
     line-height: 18px;
